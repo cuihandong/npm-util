@@ -20,7 +20,7 @@ $ npm install numeral --save
 
 ### dateformat
 
-A node.js package for Steven Levithan's excellent [dateFormat()][dateformat] function.
+A node.js package for Steven Levithan's excellent [dateFormat()](http://blog.stevenlevithan.com/archives/date-time-format) function.
 - [git 地址](https://github.com/felixge/node-dateformat.git)
 
 #### Installation
