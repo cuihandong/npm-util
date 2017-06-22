@@ -147,5 +147,39 @@ numbers, objects, strings, etc. Lodash’s modular methods are great for:
  * Manipulating & testing values
  * Creating composite functions
  
+- - -
+### chalk
+<h1 align="center">
+	<br>
+	<br>
+	<img width="320" src="https://cdn.rawgit.com/chalk/chalk/19935d6484811c5e468817f846b7b3d417d7bf4a/logo.svg" alt="chalk">
+	<br>
+	<br>
+	<br>
+</h1>
 
+> Terminal string styling done right
+
+<https://github.com/chalk/chalk.git>
+
+[colors.js](https://github.com/Marak/colors.js) used to be the most popular string styling module, but it has serious deficiencies like extending `String.prototype` which causes all kinds of [problems](https://github.com/yeoman/yo/issues/68). Although there are other ones, they either do too much or not enough.
+
+**Chalk is a clean and focused alternative.**
+
+![](https://github.com/chalk/ansi-styles/raw/master/screenshot.png)
+
+#### Install
+
+```console
+$ npm install chalk
+```
+
+
+#### Usage
+
+```js
+const chalk = require('chalk');
+
+console.log(chalk.blue('Hello world!'));
+```
 
