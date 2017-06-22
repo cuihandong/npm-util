@@ -21,6 +21,7 @@ $ npm install numeral --save
 ### dateformat
 
 A node.js package for Steven Levithan's excellent [dateFormat()](http://blog.stevenlevithan.com/archives/date-time-format) function.
+
 - [git 地址](https://github.com/felixge/node-dateformat.git)
 
 #### Installation
@@ -31,8 +32,56 @@ $ dateformat --help
 ```
 
 - - -
+### camelcase
 
-### decamelize [![Build Status](https://travis-ci.org/sindresorhus/decamelize.svg?branch=master)](https://travis-ci.org/sindresorhus/decamelize)
+> Convert a dash/dot/underscore/space separated string to camelCase: `foo-bar` → `fooBar`
+- [git 地址](https://github.com/sindresorhus/camelcase.git)
+
+#### Install
+
+```
+$ npm install --save camelcase
+```
+
+
+#### Usage
+
+```js
+const camelCase = require('camelcase');
+
+camelCase('foo-bar');
+//=> 'fooBar'
+
+camelCase('foo_bar');
+//=> 'fooBar'
+
+camelCase('Foo-Bar');
+//=> 'fooBar'
+
+camelCase('--foo.bar');
+//=> 'fooBar'
+
+camelCase('__foo__bar__');
+//=> 'fooBar'
+
+camelCase('foo bar');
+//=> 'fooBar'
+
+console.log(process.argv[3]);
+//=> '--foo-bar'
+camelCase(process.argv[3]);
+//=> 'fooBar'
+
+camelCase('foo', 'bar');
+//=> 'fooBar'
+
+camelCase('__foo__', '--bar');
+//=> 'fooBar'
+```
+
+- - -
+
+### decamelize
 
 > Convert a camelized string into a lowercased one with a custom separator<br>
 > Example: `unicornRainbow` → `unicorn_rainbow`
