@@ -29,3 +29,30 @@ A node.js package for Steven Levithan's excellent [dateFormat()](http://blog.ste
 $ npm install dateformat
 $ dateformat --help
 ```
+
+- - -
+
+### decamelize [![Build Status](https://travis-ci.org/sindresorhus/decamelize.svg?branch=master)](https://travis-ci.org/sindresorhus/decamelize)
+
+> Convert a camelized string into a lowercased one with a custom separator<br>
+> Example: `unicornRainbow` → `unicorn_rainbow`
+- [git 地址](https://github.com/sindresorhus/decamelize.git)
+
+#### Install
+
+```
+$ npm install --save decamelize
+```
+
+
+#### Usage
+
+```js
+const decamelize = require('decamelize');
+
+decamelize('unicornRainbow');
+//=> 'unicorn_rainbow'
+
+decamelize('unicornRainbow', '-');
+//=> 'unicorn-rainbow'
+```
