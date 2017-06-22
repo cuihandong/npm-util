@@ -192,3 +192,18 @@ const chalk = require('chalk');
 console.log(chalk.blue('Hello world!'));
 ```
 
+- - -
+
+### Commander.js
+
+[![NPM Version](http://img.shields.io/npm/v/commander.svg?style=flat)](https://www.npmjs.org/package/commander)
+[![NPM Downloads](https://img.shields.io/npm/dm/commander.svg?style=flat)](https://www.npmjs.org/package/commander)
+
+  [node.js](http://nodejs.org) 命令行接口的完整解决方案，灵感来自 Ruby 的 [commander](https://github.com/tj/commander)。  
+  [API 文档](http://tj.github.com/commander.js/)
+
+
+## 安装
+
+    $ npm install commander
+
