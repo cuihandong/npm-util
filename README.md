@@ -148,6 +148,15 @@ numbers, objects, strings, etc. Lodash’s modular methods are great for:
  * Creating composite functions
  
 - - -
+### underscore
+
+Underscore.js is a utility-belt library for JavaScript that provides support for the usual functional suspects (**each, map, reduce, filter...**) without extending any core JavaScript objects.
+
+- <http://underscorejs.org/>
+- <https://github.com/jashkenas/underscore>
+
+- - -
+
 ### chalk
 <h1 align="center">
 	<br>
