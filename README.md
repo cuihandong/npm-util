@@ -201,7 +201,7 @@ console.log(chalk.blue('Hello world!'));
 
   [node.js](http://nodejs.org) 命令行接口的完整解决方案，灵感来自 Ruby 的 [commander](https://github.com/tj/commander)。  
   [API 文档](http://tj.github.com/commander.js/)
-
+  [git 说明](https://github.com/tj/commander.js/blob/master/Readme_zh-CN.md)
 
 ## 安装
 
