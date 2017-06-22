@@ -129,3 +129,23 @@ For Documentation, visit <https://caolan.github.io/async/>
 *For Async v1.5.x documentation, go [HERE](https://github.com/caolan/async/blob/v1.5.2/README.md)*
 
 *<https://github.com/caolan/async.git>*
+
+- - -
+
+### lodash
+
+[Site](https://lodash.com/) |
+[Docs](https://lodash.com/docs) |
+[FP Guide](https://github.com/lodash/lodash/wiki/FP-Guide) 
+
+<https://github.com/lodash/lodash>
+
+Lodash makes JavaScript easier by taking the hassle out of working with arrays,<br>
+numbers, objects, strings, etc. Lodash’s modular methods are great for:
+
+ * Iterating arrays, objects, & strings
+ * Manipulating & testing values
+ * Creating composite functions
+ 
+
+
