@@ -1,6 +1,8 @@
 # npm-util
 积累一些常用的npmjs库
 
+注：编写md文档请参考[《Markdown 入门参考》](http://xianbai.me/learn-md/index.html)
+
 ## 格式类
 
 ### numeral
