@@ -37,6 +37,26 @@ $ dateformat --help
 ```
 
 - - -
+### semver
+
+版本号工具
+
+- <http://semver.org/>
+- <https://github.com/npm/node-semver/tree/master>
+
+#### Usage
+
+    $ npm install semver
+    $ node
+    var semver = require('semver')
+
+    semver.valid('1.2.3') // '1.2.3'
+    semver.valid('a.b.c') // null
+    semver.clean('  =v1.2.3   ') // '1.2.3'
+    semver.satisfies('1.2.3', '1.x || >=2.5.0 || 5.0.0 - 7.2.3') // true
+    semver.gt('1.2.3', '9.8.7') // false
+    semver.lt('1.2.3', '9.8.7') // true
+- - -
 ### camelcase
 
 > Convert a dash/dot/underscore/space separated string to camelCase: `foo-bar` → `fooBar`
